@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#112d60"/><stop offset=".55" stop-color="#286cb3"/><stop offset="1" stop-color="#23aba4"/></linearGradient>
+<linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff7ac"/><stop offset="1" stop-color="#ffc656"/></linearGradient></defs>
+<rect width="512" height="512" rx="114" fill="url(#bg)"/>
+<circle cx="420" cy="105" r="98" fill="#ffffff" opacity=".08"/><circle cx="68" cy="433" r="112" fill="#fff" opacity=".06"/>
+<path d="M83 200 Q167 162 250 208 L250 401 Q163 357 83 393Z" fill="#d9ebff" stroke="white" stroke-width="12" stroke-linejoin="round"/>
+<path d="M429 200 Q345 162 262 208 L262 401 Q349 357 429 393Z" fill="#d9ebff" stroke="white" stroke-width="12" stroke-linejoin="round"/>
+<path d="M256 206L256 401" stroke="#18457d" stroke-width="13"/>
+<rect x="121" y="241" width="95" height="105" rx="19" fill="#3977d5"/><rect x="296" y="241" width="95" height="105" rx="19" fill="#199e92"/>
+<text x="168" y="318" font-family="DejaVu Sans,Arial,sans-serif" font-weight="900" font-size="66" text-anchor="middle" fill="white">5</text>
+<text x="343" y="318" font-family="DejaVu Sans,Arial,sans-serif" font-weight="900" font-size="59" text-anchor="middle" fill="white">A</text>
+<path d="M256 60L278 114 336 118 292 157 307 213 256 181 205 213 220 157 176 118 234 114Z" fill="url(#gold)" stroke="#fff0a4" stroke-width="5" stroke-linejoin="round"/>
+</svg>

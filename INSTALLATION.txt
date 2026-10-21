@@ -1,0 +1,68 @@
+LERNWELTEN 2.1 – APP FÜR IPAD UND ANDROID
+==========================================
+
+Diese Ausgabe enthält ALLE Mathe-, Geo- und Deutsch-Lernspiele,
+Punktesystem, Belohnungsshop und Elternbereich. Kein zusätzlicher
+Server für Benutzerkonten erforderlich. Der Elterncode bleibt zunächst 1805.
+
+WICHTIG: Für die Installation als App muss der gesamte Ordner auf einer
+HTTPS-Webadresse liegen. Das Öffnen der HTML-Datei über „Dateien“/
+„Downloads“ installiert KEINE PWA und garantiert keinen Offline-Cache.
+
+AM EINFACHSTEN: STATISCH HOSTEN
+--------------------------------
+Option A – Netlify Drop: https://app.netlify.com/drop
+  1. Den ORDNER „Lernwelten_App_2_1“ entpacken.
+  2. Beim Netlify-Drop die entpackte Ordnerstruktur hochladen.
+     (index.html muss auf der obersten Ebene sein.)
+  3. Die HTTPS-Adresse öffnen, die Netlify für die Website bereitstellt.
+  4. Link an iPad- oder Android-Nutzer weitergeben.
+Hinweis: Zur Bedienung und etwaigen Kosten/AGB des Dienstes bitte die
+aktuellen Bedingungen des Hosters prüfen.
+
+Option B – GitHub Pages:
+  1. Neues Repository anlegen.
+  2. Dateien aus dem App-Ordner ins Stammverzeichnis hochladen.
+  3. Settings -> Pages -> Deploy from a branch -> main / (root).
+  4. Danach die veröffentlichte HTTPS-Adresse öffnen.
+
+IPAD (SAFARI)
+------------
+  1. Die HTTPS-Adresse in Safari auf dem iPad aufrufen.
+  2. Teilen -> „Zum Home-Bildschirm“ -> „Hinzufügen“.
+  3. „Lernwelten“ als eigenes Symbol auf dem Home-Bildschirm starten.
+
+ANDROID (CHROME)
+----------------
+  1. Die HTTPS-Adresse in Chrome aufrufen.
+  2. „App installieren“ antippen (alternativ Chrome-Menü).
+  3. Installation bestätigen; dann vom App-Symbol starten.
+
+OFFLINE, PUNKTE UND SICHERHEIT
+------------------------------
+  - Die App speichert Spielstände und Punkte auf jedem Gerät separat.
+  - Beim ersten Online-Aufruf werden die App-Dateien offline gespeichert.
+  - Für bestehende Daten aus Lernwelten 2.1: auf der ALTEN Version den
+    Elternbereich öffnen -> „Sicherung herunterladen“; in der neuen
+    App über Elternbereich -> „Sicherung laden“ wieder einspielen.
+  - Vor dem ersten Offline-Test einmal online öffnen und vollständig laden.
+  - Achtung: Browserdaten löschen / App neu installieren kann Spielstände
+    löschen. Deshalb regelmäßig im Elternbereich Sicherungen exportieren.
+  - Ein unter „Dateien“ gespeicherter HTML-Spielstand wandert NICHT
+    automatisch in eine über HTTPS installierte App.
+  - Keine automatische Synchronisation von Punkten zwischen Geräten.
+  - Der lokale PIN schützt vor versehentlicher Bedienung durch Kinder,
+    ist aber keine manipulationssichere Zugriffssperre.
+  - Hoster empfängt die ausgelieferten Webdateien, nicht die lokal im
+    Browser gespeicherten Quizstände oder Eltern-PIN-Eingaben.
+  - Eine öffentliche URL kann prinzipiell von anderen genutzt werden.
+
+ENTHALTENE DATEIEN
+------------------
+  index.html               Lernplattform (alle 3 Fächer integriert)
+  app-install.js           Installationshilfe und App-Registrierung
+  manifest.webmanifest     App-Namen, Symbole und Vollbildmodus
+  sw.js                    Offline-Cache und Versionsupdates
+  icons/                  App-Symbole für Apple und Android
+
+VERSION: 2.1 PWA / Paket 1
